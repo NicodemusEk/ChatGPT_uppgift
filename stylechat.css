@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Hela_sida{
+background-color: #F5E1C8;
+height: 850px;
+width: 100%; 
+display:flex;
+flex-direction: column;
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    background-color: #A67B5B;
+    align-items: center;
+    
+}
+.logo img{
+    height: 300px;
+    
+}
+
+.logo{
+
+    border:20px solid #A67B5B;
+}
+
+.valkomen{
+    background-color: #A67B5B;
+    justify-content: center;
+   display: flex;
+   align-items: center;
+   flex-grow: 5;
+}
+
+.meny_knapp{
+    width: 80px;
+    height: 80px;
+    background-color: #A67B5B;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 40px;
+    
+}
+.meny_knapp:hover{
+    background: #0005;
+}
+.head a{
+    text-decoration: none;
+    color: black;
+    font-size: xx-large;
+}
+
+.Info{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: #3e5c50;
+}
+
+.Info_text{
+    width: 450px;
+    display: flex;
+    margin-left: 420px;
+    color: #3e5c50fa;
+    margin-bottom: 20px;
+}
+.kontakt_karta{
+    display: flex;
+    justify-content: center;
+    background-color: #A67B5B;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.innehav{
+    padding: 20px;
+    width: 430px;
+}
